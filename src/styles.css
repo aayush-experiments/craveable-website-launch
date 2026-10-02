@@ -69,7 +69,7 @@ button, input { font: inherit; }
 }
 .logo-link { min-width: 0; width: min(13rem, 58vw); }
 .brand-logo { display: block; width: 100%; height: auto; mix-blend-mode: multiply; }
-.desktop-nav, .header-cta { display: none; }
+.desktop-nav, .site-header .header-cta { display: none; }
 .menu-button { width: 2.75rem; height: 2.75rem; border: 1px solid var(--chocolate); background: transparent; color: var(--chocolate); display: grid; place-items: center; cursor: pointer; }
 .menu-button svg { width: 1.25rem; }
 .mobile-nav { position: absolute; z-index: 29; top: 6.25rem; left: 0; right: 0; padding: 1.5rem; display: grid; gap: 0; background: var(--cream); border-bottom: 1px solid var(--border); }
@@ -157,7 +157,7 @@ button, input { font: inherit; }
 @media (min-width: 48rem) {
   .site-header { grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); }
   .desktop-nav { display: flex; align-items: center; justify-content: center; gap: 2rem; font-size: .8rem; font-weight: 600; }
-  .header-cta { display: inline-flex; justify-self: end; }
+  .site-header .header-cta { display: inline-flex; justify-self: end; }
   .menu-button, .mobile-nav { display: none; }
   .section, .why-section, .story-section, .early-section { padding: 7rem clamp(2.5rem, 6vw, 7rem); }
   .hero-section { min-height: 54rem; padding: 10rem clamp(2.5rem, 7vw, 8rem) 6rem; }
