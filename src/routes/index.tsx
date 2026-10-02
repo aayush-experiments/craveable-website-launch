@@ -220,9 +220,9 @@ function Index() {
           <a href="mailto:hello@letitcrave.com">Contact</a>
         </nav>
         <div className="footer-socials">
-          <a href="#instagram-placeholder" aria-label="Instagram placeholder"><Instagram aria-hidden="true" /> Instagram</a>
+          <a href="https://www.instagram.com/letitcrave/" target="_blank" rel="noopener noreferrer" aria-label="Let It Crave on Instagram"><Instagram aria-hidden="true" /> Instagram</a>
           <a href="mailto:hello@letitcrave.com"><Mail aria-hidden="true" /> Email</a>
-          <a href="#whatsapp-placeholder">WhatsApp</a>
+          <a href="https://wa.me/917984487662" target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>
         <p className="copyright">© 2026 Let It Crave</p>
       </footer>
