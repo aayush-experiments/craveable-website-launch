@@ -6,7 +6,7 @@ import { Button } from "@/components/Button";
 import flavourLaddoos from "@/assets/flavour-laddoos.jpg";
 import heroLaddoos from "@/assets/hero-laddoos.jpg";
 import ingredientsFlatlay from "@/assets/ingredients-flatlay.jpg";
-import logoAsset from "@/assets/let-it-crave-logo.png.asset.json";
+import logoAsset from "@/assets/let-it-crave-logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -52,7 +52,7 @@ function Index() {
     <main className="overflow-hidden">
       <header className="site-header">
         <a href="#top" aria-label="Let It Crave home" className="logo-link">
-          <img src={logoAsset.url} alt="Let It Crave" className="brand-logo" />
+          <img src={logoAsset} alt="Let It Crave" className="brand-logo" />
         </a>
 
         <nav className="desktop-nav" aria-label="Main navigation">
@@ -210,7 +210,7 @@ function Index() {
 
       <footer className="site-footer">
         <div className="footer-brand">
-          <img src={logoAsset.url} alt="Let It Crave" />
+          <img src={logoAsset} alt="Let It Crave" />
           <p>Goodness You Crave, Naturally.</p>
         </div>
         <nav aria-label="Footer navigation">
