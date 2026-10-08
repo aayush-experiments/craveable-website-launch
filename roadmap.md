@@ -10,5 +10,6 @@
 - [x] Extract catalogue logo and derived favicon
 - [x] Replace hero and four-flavour photos; update flavour names and descriptions
 - [x] Verify local assets, preserved links/form and desktop/mobile display
+- [x] Add downloadable catalogue PDF, homepage button and footer link
 
 Earlier unfinished refinements are superseded by the targeted catalogue-only update; existing sections and interactions stay unchanged.

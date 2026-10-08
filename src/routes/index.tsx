@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, ArrowRight, Instagram, Mail, Menu, X } from "lucide-react";
+import { ArrowDown, ArrowRight, Download, Instagram, Mail, Menu, X } from "lucide-react";
 import { useState, type FormEvent } from "react";
 
 import { Button } from "@/components/Button";
@@ -136,6 +136,13 @@ function Index() {
             ))}
           </div>
         </div>
+
+        <div className="catalogue-cta">
+          <p>Everything in one file.</p>
+          <a className="button-base button-primary" href="/let-it-crave-catalogue.pdf" download>
+            Download Our Catalogue <Download aria-hidden="true" />
+          </a>
+        </div>
       </section>
 
       <section id="why-us" className="why-section">
@@ -218,6 +225,7 @@ function Index() {
           <a href="#why-us">Why Us</a>
           <a href="#story">Our Story</a>
           <a href="mailto:hello@letitcrave.com">Contact</a>
+          <a href="/let-it-crave-catalogue.pdf" download>Download Catalogue</a>
         </nav>
         <div className="footer-socials">
           <a href="https://www.instagram.com/letitcrave/" target="_blank" rel="noopener noreferrer" aria-label="Let It Crave on Instagram"><Instagram aria-hidden="true" /> Instagram</a>

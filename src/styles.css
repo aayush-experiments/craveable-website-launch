@@ -107,6 +107,11 @@ button, input { font: inherit; }
 .flavour-row h3 { margin: 0 0 .35rem; font-family: var(--font-display); text-transform: uppercase; font-size: clamp(1.25rem, 3vw, 2rem); font-weight: 400; line-height: 1.05; }
 .flavour-row p { margin: 0; color: var(--muted-foreground); line-height: 1.5; }
 
+.catalogue-cta { margin-top: 2.25rem; display: grid; gap: 1.4rem; justify-items: start; }
+.catalogue-cta p { margin: 0; font-family: var(--font-hand); color: var(--primary); font-size: 1.6rem; line-height: 1; }
+.catalogue-cta .button-base { width: 100%; }
+.catalogue-cta .button-base svg { width: 1.05rem; }
+
 .why-section { padding: 5rem 1.25rem; background: var(--primary); color: var(--primary-foreground); }
 .why-heading h2 { font-size: clamp(2.3rem, 7vw, 6.4rem); }
 .why-heading h2 span { color: var(--peach); }
@@ -165,6 +170,8 @@ button, input { font: inherit; }
   .split-heading { grid-template-columns: minmax(0, 1fr) auto; align-items: end; }
   .flavours-layout { grid-template-columns: minmax(0, 1.25fr) minmax(20rem, .75fr); gap: clamp(3rem, 6vw, 6rem); }
   .flavour-image-wrap { min-height: 38rem; }
+  .catalogue-cta { grid-template-columns: minmax(0, 1fr) auto; align-items: center; margin-top: 3rem; }
+  .catalogue-cta .button-base { width: auto; }
   .benefit-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .benefit, .benefit:nth-child(even) { min-height: 14rem; padding: 1.5rem; border-right: 1px solid color-mix(in oklab, var(--cream) 35%, transparent); }
   .benefit:first-child { padding-left: 0; }
