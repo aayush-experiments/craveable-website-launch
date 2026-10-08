@@ -5,9 +5,10 @@
 - [x] Add functional early-access form interactions
 - [x] Verify desktop and mobile rendering
 
-## Refinement
+## Catalogue update (current scope)
 
-- [ ] Refine laddoo imagery from packaging references
-- [ ] Enrich benefits, story, early access, and official contact details
-- [ ] Add flavour interactions and restrained motion
-- [ ] Recheck desktop and mobile rendering
+- [ ] Extract catalogue logo and derived favicon
+- [ ] Replace hero and four-flavour photos; update flavour names and descriptions
+- [ ] Verify local assets, preserved links/form and desktop/mobile display
+
+Earlier unfinished refinements are superseded by the targeted catalogue-only update; existing sections and interactions stay unchanged.
