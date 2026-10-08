@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep the landing page as a single content route with reusable local controls; this preserves a focused launch experience while keeping future extraction easy.
+- Keep displayed brand and food images as local files imported through Vite, and the favicon in public; this makes the website portable to the existing GitHub Pages custom-domain deployment without platform-specific asset URLs.

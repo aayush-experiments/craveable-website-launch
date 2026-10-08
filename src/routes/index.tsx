@@ -3,10 +3,10 @@ import { ArrowDown, ArrowRight, Instagram, Mail, Menu, X } from "lucide-react";
 import { useState, type FormEvent } from "react";
 
 import { Button } from "@/components/Button";
-import flavourLaddoos from "@/assets/flavour-laddoos.jpg";
-import heroLaddoos from "@/assets/hero-laddoos.jpg";
+import flavourLaddoos from "@/assets/catalogue-four-flavours.jpg";
+import heroLaddoos from "@/assets/catalogue-hero-laddoos.jpg";
 import ingredientsFlatlay from "@/assets/ingredients-flatlay.jpg";
-import logoAsset from "@/assets/let-it-crave-logo.png";
+import logoAsset from "@/assets/catalogue-logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -30,10 +30,10 @@ export const Route = createFileRoute("/")({
 });
 
 const flavours = [
-  { number: "01", name: "Hazelnut Chocolate", description: "Rich cacao, dates, almonds and hazelnuts" },
-  { number: "02", name: "Orange Chocolate", description: "Chocolate with a bright citrus twist" },
-  { number: "03", name: "Coffee Almond", description: "Nutty, rich and coffee-forward" },
-  { number: "04", name: "Vanilla Chocolate", description: "Smooth vanilla, chocolate and nuts" },
+  { number: "01", name: "Belgian Chocolate", description: "Rich, nutty & deeply chocolatey." },
+  { number: "02", name: "Coffee Almond", description: "Bold coffee. Crunchy almonds." },
+  { number: "03", name: "Choco Orange", description: "Chocolate with a bright citrus twist." },
+  { number: "04", name: "Choco Vanilla", description: "Smooth, comforting & delicately sweet." },
 ];
 
 const benefits = ["Sweetened with Dates", "Real Nuts", "Thoughtfully Made", "Flavour First"];
@@ -117,10 +117,10 @@ function Index() {
           <div className="flavour-image-wrap">
             <img
               src={flavourLaddoos}
-              alt="Four varieties of date and nut laddoos"
+              alt="Belgian Chocolate and Coffee Almond laddoos above Choco Orange and Choco Vanilla laddoos, with their ingredients"
               loading="lazy"
               width={1600}
-              height={1008}
+              height={1000}
             />
             <span className="image-label">Made to disappear quickly</span>
           </div>
