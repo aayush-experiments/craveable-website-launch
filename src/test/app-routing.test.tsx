@@ -12,7 +12,6 @@ function renderAt(path: string) {
     context: { queryClient },
     history: createMemoryHistory({ initialEntries: [path] }),
   });
-  void router.load();
   return render(<RouterProvider router={router} />);
 }
 
