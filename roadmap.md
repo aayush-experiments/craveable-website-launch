@@ -18,3 +18,8 @@ Earlier unfinished refinements are superseded by the targeted catalogue-only upd
 - [x] Benefit blocks gained short supporting lines (dates, nuts, thoughtfully made, flavour first)
 - [x] Catalogue CTA copy softened to a supporting feature ("Every flavour, in one file.")
 - [x] Build + desktop/mobile check passed; no overflow, links and form untouched
+
+## Gift hampers section (done)
+- [x] Compact "A Little Craving, A Lot of Gifting." band added above the footer, with gifting catalogue download and WhatsApp enquiry buttons
+- [x] Existing catalogue button moved out of the flavours section into this band (no duplicate); footer link kept
+- [x] No new images, dependencies or config changes; build + desktop/mobile check
