@@ -36,7 +36,12 @@ const flavours = [
   { number: "04", name: "Choco Vanilla", description: "Smooth, comforting & delicately sweet." },
 ];
 
-const benefits = ["Sweetened with Dates", "Real Nuts", "Thoughtfully Made", "Flavour First"];
+const benefits = [
+  { title: "Sweetened with Dates", text: "Sweetness that starts with dates." },
+  { title: "Real Nuts", text: "Almonds, hazelnuts, cashews and more." },
+  { title: "Thoughtfully Made", text: "Simple ingredients, carefully brought together." },
+  { title: "Flavour First", text: "Because a better snack still has to taste incredible." },
+];
 const ingredients = ["Dates", "Almonds", "Hazelnuts", "Cashews", "Cacao", "Coconut", "Coffee", "Chia Seeds"];
 
 function Index() {
@@ -138,7 +143,7 @@ function Index() {
         </div>
 
         <div className="catalogue-cta">
-          <p>Everything in one file.</p>
+          <p>Every flavour, in one file.</p>
           <a className="button-base button-primary" href="/let-it-crave-catalogue.pdf" download>
             Download Our Catalogue <Download aria-hidden="true" />
           </a>
@@ -152,9 +157,12 @@ function Index() {
         </div>
         <div className="benefit-grid">
           {benefits.map((benefit, index) => (
-            <div className="benefit" key={benefit}>
+            <div className="benefit" key={benefit.title}>
               <span>0{index + 1}</span>
-              <h3>{benefit}</h3>
+              <div>
+                <h3>{benefit.title}</h3>
+                <p>{benefit.text}</p>
+              </div>
             </div>
           ))}
         </div>

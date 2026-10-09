@@ -121,6 +121,7 @@ button, input { font: inherit; }
 .benefit:nth-child(even) { padding-left: 1rem; }
 .benefit span { font-size: .7rem; opacity: .75; }
 .benefit h3 { margin: 0; max-width: 10ch; font-family: var(--font-display); font-size: clamp(1rem, 3vw, 1.55rem); font-weight: 400; text-transform: uppercase; line-height: 1.1; }
+.benefit p { margin: .7rem 0 0; max-width: 22ch; font-size: .85rem; line-height: 1.5; opacity: .82; }
 
 .ingredients-section { display: grid; gap: 2.5rem; align-items: center; }
 .ingredient-list { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 2rem; }

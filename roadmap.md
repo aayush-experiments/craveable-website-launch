@@ -13,3 +13,8 @@
 - [x] Add downloadable catalogue PDF, homepage button and footer link
 
 Earlier unfinished refinements are superseded by the targeted catalogue-only update; existing sections and interactions stay unchanged.
+
+## FMCG positioning refinement (done)
+- [x] Benefit blocks gained short supporting lines (dates, nuts, thoughtfully made, flavour first)
+- [x] Catalogue CTA copy softened to a supporting feature ("Every flavour, in one file.")
+- [x] Build + desktop/mobile check passed; no overflow, links and form untouched
