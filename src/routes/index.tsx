@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, ArrowRight, Download, Instagram, Mail, Menu, X } from "lucide-react";
+import { ArrowDown, ArrowRight, Download, Instagram, Mail, Menu, MessageCircle, X } from "lucide-react";
 import { useState, type FormEvent } from "react";
 
 import { Button } from "@/components/Button";
@@ -141,13 +141,6 @@ function Index() {
             ))}
           </div>
         </div>
-
-        <div className="catalogue-cta">
-          <p>Every flavour, in one file.</p>
-          <a className="button-base button-primary" href="/let-it-crave-catalogue.pdf" download>
-            Download Our Catalogue <Download aria-hidden="true" />
-          </a>
-        </div>
       </section>
 
       <section id="why-us" className="why-section">
@@ -221,6 +214,28 @@ function Index() {
             <Button type="submit" variant="cream">I Want First Bite <ArrowRight aria-hidden="true" /></Button>
           </form>
         )}
+      </section>
+
+      <section id="gifting" className="gifting-section">
+        <p className="gifting-note" aria-hidden="true">Made to be shared.</p>
+        <div className="gifting-copy">
+          <p className="eyebrow">For gifting</p>
+          <h2>A Little Craving, <em>A Lot of Gifting.</em></h2>
+          <p className="gifting-desc">From thoughtful surprises to festive celebrations, make every occasion a little more delicious with Let It Crave gift hampers.</p>
+          <div className="gifting-actions">
+            <a className="button-base button-primary" href="/let-it-crave-catalogue.pdf" download>
+              Download Gifting Catalogue <Download aria-hidden="true" />
+            </a>
+            <a
+              className="button-base button-outline"
+              href="https://wa.me/917984487662?text=Hi%21%20I%27d%20like%20to%20know%20more%20about%20Let%20It%20Crave%20gift%20hampers"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Enquire on WhatsApp <MessageCircle aria-hidden="true" />
+            </a>
+          </div>
+        </div>
       </section>
 
       <footer className="site-footer">
