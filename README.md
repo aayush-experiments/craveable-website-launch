@@ -37,7 +37,7 @@ Subheading: Four flavours. One difficult decision.
 Show four products:
 - Hazelnut Chocolate — rich cacao, dates, almonds and hazelnuts
 - Orange Chocolate — chocolate with a bright citrus twist
-- Coffee Almond — nutty, rich and coffee-forward
+- Nutty Coffee — nutty, rich and coffee-forward
 - Vanilla Chocolate — smooth vanilla, chocolate and nuts
 Do not add prices or e-commerce yet.
 Why Let It Crave

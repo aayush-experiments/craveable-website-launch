@@ -31,9 +31,9 @@ export const Route = createFileRoute("/")({
 
 const flavours = [
   { number: "01", name: "Belgian Chocolate", description: "Rich, nutty & deeply chocolatey." },
-  { number: "02", name: "Coffee Almond", description: "Bold coffee. Crunchy almonds." },
-  { number: "03", name: "Choco Orange", description: "Chocolate with a bright citrus twist." },
-  { number: "04", name: "Choco Vanilla", description: "Smooth, comforting & delicately sweet." },
+  { number: "02", name: "Nutty Coffee", description: "Bold coffee. Crunchy almonds." },
+  { number: "03", name: "Orange Rush", description: "Chocolate with a bright citrus twist." },
+  { number: "04", name: "Choco Cream", description: "Smooth, comforting & delicately sweet." },
 ];
 
 const benefits = [
@@ -122,7 +122,7 @@ function Index() {
           <div className="flavour-image-wrap">
             <img
               src={flavourLaddoos}
-              alt="Belgian Chocolate and Coffee Almond laddoos above Choco Orange and Choco Vanilla laddoos, with their ingredients"
+              alt="Belgian Chocolate and Nutty Coffee laddoos above Orange Rush and Choco Cream laddoos, with their ingredients"
               loading="lazy"
               width={1600}
               height={1000}
