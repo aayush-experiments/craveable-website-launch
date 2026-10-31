@@ -228,7 +228,7 @@ function Index() {
             </a>
             <a
               className="button-base button-outline"
-              href="https://wa.me/917984487662?text=Hi%21%20I%27d%20like%20to%20know%20more%20about%20Let%20It%20Crave%20gift%20hampers"
+              href="https://wa.me/918780761904?text=Hi%21%20I%27d%20like%20to%20know%20more%20about%20Let%20It%20Crave%20gift%20hampers"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -253,7 +253,7 @@ function Index() {
         <div className="footer-socials">
           <a href="https://www.instagram.com/letitcrave/" target="_blank" rel="noopener noreferrer" aria-label="Let It Crave on Instagram"><Instagram aria-hidden="true" /> Instagram</a>
           <a href="mailto:hello@letitcrave.com"><Mail aria-hidden="true" /> Email</a>
-          <a href="https://wa.me/917984487662" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="https://wa.me/918780761904" target="_blank" rel="noopener noreferrer">WhatsApp</a>
         </div>
         <p className="copyright">© 2026 Let It Crave</p>
       </footer>
